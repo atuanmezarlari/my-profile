@@ -3,6 +3,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    background-color: #fbc4d2;
 }
 .giris h1{
     color: #8D7B68;
@@ -21,6 +22,7 @@
 .giris img{
     border: 10px solid #D5B4B4;
     border-radius: 20%;
+    height: 300px; 
 }
 .giris p {
     font-family: 'Noto Serif Khojki', serif;
@@ -30,7 +32,7 @@
     margin-bottom: 1.5rem;
 }
 #keyboard {
-    padding-top: 6.5rem;
+    padding-top: auto;
 }
 .tanitim img {
     height: 25rem;
@@ -78,6 +80,15 @@
     font-family: 'Noto Serif Khojki', serif;
     color:  #5D4E4E;
     font-size: 4rem;
+}
+.container-middle{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.codding-text{
+    padding-right: 10rems;
 }
 .yetenek h3{
     color: #867070;
@@ -134,4 +145,22 @@
 .footer p{
     margin-top: 1.5rem;
     padding-bottom: 1.5rem;
+}
+@media (max-width: 507px){
+    .giris img{
+        border: 5px solid #D5B4B4;
+        height: 200px; 
+    }
+    .giris h1{
+        font-size: 3rem;
+    }
+    .giris p {
+        font-size: 2rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+    .tanitim img {
+        height: 12.5rem;
+        margin-top: 2rem;
+    }
 }
